@@ -42,8 +42,8 @@ const Team = () => {
                          width={150}
                          height={150}
             /> ,
-            name: "Chalitha",
-            role: "Engineering",
+            name: "Chalitha Gunarathna",
+            role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
             linkedin: <Linkedin className="text-black w-6 h-6 " />,
             github: <Github className="text-black w-7 h-7" />,
@@ -56,8 +56,8 @@ const Team = () => {
                          width={150}
                          height={150}
             /> ,
-            name: "Sathira",
-            role: "Engineering",
+            name: "Sathira Dahanayaka",
+            role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
             linkedin: <Linkedin className="text-black w-6 h-6 " />,
             github: <Github className="text-black w-7 h-7" />,
@@ -71,7 +71,7 @@ const Team = () => {
                          height={150}
             /> ,
             name: "Amna Ibrahim",
-            role: "Client Side Development",
+            role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
             linkedin: <Linkedin className="text-black w-6 h-6 " />,
             github: <Github className="text-black w-7 h-7" />,
@@ -83,8 +83,8 @@ const Team = () => {
                          width={150}
                          height={150}
             /> ,
-            name: "Sachini",
-            role: "Engineering",
+            name: "Sachini Nishshanka",
+            role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
             linkedin: <Linkedin className="text-black w-6 h-6 " />,
             github: <Github className="text-black w-7 h-7" />,

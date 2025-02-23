@@ -14,6 +14,7 @@ export default {
       colors: {
         // logoColor: 'rgb(118, 199, 209)',
         logoColor: 'rgb(50, 105, 130)',
+        footerColor: 'rgb(5, 20, 30)',
         heroColor: 'rgb(150, 200, 220)',
         background: "var(--background)",
         foreground: "var(--foreground)",

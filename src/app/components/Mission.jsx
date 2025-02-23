@@ -9,7 +9,7 @@ const Mission = () => {
             <Reveal>
                 <div
                     className="sm:grid sm:grid-cols-2 flex flex-col-reverse sm:flex-row items-center">
-                    <div className="sm:mr-10 sm:mt-0 mt-10 flex justify-center sm:justify-end">
+                    <div className="sm:mt-0 mt-10 flex justify-center sm:justify-end lg:justify-start sm:ml-10">
                         <Image
                             alt="HeroUI hero Image"
                             src="imgs/mission.jpg"
