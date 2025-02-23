@@ -11,7 +11,7 @@ const Unique = () => {
                     className="grid grid-cols-1 sm:grid-cols-2 ">
                     <div className=" flex flex-col  text-center items-start gap-y-5 w-full px-8 ">
                         <p className="text-5xl text-center w-full font-bold ">Why are we UNIQUE?</p>
-                        <p className="text-2xl mt-4  text-justify w-full ">
+                        <p className="text-2xl mt-4  sm:text-justify w-full ">
                             Unlike traditional LMS platforms, Schoolify
                             takes a holistic approach, designed not just for
                             educators, but also for students and parents.

@@ -77,8 +77,8 @@ const Team = () => {
             github: <Github className="text-black w-7 h-7" />,
         },
         {
-            photo:<Image alt="HeroUI hero Image"
-                         src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+            photo:<Image alt="Sachini Image"
+                         src="imgs/sachini.png"
                          className="circular-image rounded-full object-cover border-3 border-black"
                          width={150}
                          height={150}

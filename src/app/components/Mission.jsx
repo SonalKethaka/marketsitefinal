@@ -18,7 +18,7 @@ const Mission = () => {
                     </div>
                     <div className=" flex flex-col  text-center items-start gap-y-5 w-full px-8 ">
                         <p className="text-6xl font-bold text-center w-full text-logoColor">OUR MISSION</p>
-                        <p className="text-2xl mt-4 text-justify w-full ">
+                        <p className="text-2xl mt-4 sm:text-justify w-full ">
                             Schoolify is on a mission to revolutionize education by providing a seamless, intuitive,
                             and powerful Learning Management System that bridges the gap between schools, teachers, s
                             tudents, and parents. We believe in making learning accessible, engaging, and efficient with
