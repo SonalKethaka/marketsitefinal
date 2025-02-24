@@ -263,7 +263,7 @@ export default function NavigationBar() {
 
                 {/* Hamburger Menu (Mobile) */}
                 <NavbarContent className="sm:hidden flex items-center justify-end ">
-                    <Button isIconOnly variant="light" onPress={onOpen} aria-label="Open menu" className="ml-auto text-logoColor justify-end">
+                    <Button isIconOnly variant="light" onPress={onOpen} aria-label="Open menu" className="ml-auto text-logoColor justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15M4.5 6h15M4.5 18h15"/>
                         </svg>

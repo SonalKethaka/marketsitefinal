@@ -77,11 +77,11 @@ const Hero = () => {
                 {/* Social Media Section */}
                 <div className="absolute bottom-6 right-6 flex space-x-4">
                     <div className="flex space-x-6">
-                        <SocialIcon target="_blank" rel="noopener noreferrer" url="https://www.linkedin.com"
+                        <SocialIcon target="_blank" rel="noopener noreferrer" url="https://www.linkedin.com/in/schoolifylms"
                                     style={{width: 40, height: 40}}/>
                         <SocialIcon target="_blank" rel="noopener noreferrer" url="https://www.instagram.com/schoolify._/?utm_source=ig_web_button_share_sheet"
                                     style={{width: 40, height: 40}}/>
-                        <SocialIcon target="_blank" rel="noopener noreferrer" url="https://web.facebook.com/profile.php?id=61571031742228"
+                        <SocialIcon target="_blank" rel="noopener noreferrer" url="https://www.facebook.com/profile.php?id=61571031742228"
                                     style={{width: 40, height: 40}}/>
                     </div>
                 </div>

@@ -16,21 +16,32 @@ export function Footer() {
         <footer id="contact" className="bg-footerColor bg-opacity-100 py-8  sm:py-8 lg:py-8 w-full left-0">
             {/* Divider */}
             <div className="px-6 max-w-screen-xl mx-auto ">
-                <div className="grid grid-cols-2 sm:items-center gap-x-10">
+                <div className="grid sm:grid-cols-2 grid-cols-1 sm:items-center gap-x-10">
                     {/* Logo Section */}
-                    <div className="flex sm:flex-row flex-col gap-x-8 mb-4 md:mb-0">
-                        {/*<NextLink href="#" className="font-bold flex items-center bg-green-600">*/}
-                        {/*    <img src="/imgs/logo.png" alt="star" className="w-36 text-black"/>*/}
-                        {/*</NextLink>*/}
-                        <Image alt="Logo"
-                               src="imgs/logowhite.png"
-                               width={450}
+                    {/*<div className="flex sm:flex-row flex-col gap-x-8 mb-4 md:mb-0">*/}
+
+                    {/*    <Image alt="Logo"*/}
+                    {/*           src="imgs/logowhite.png"*/}
+                    {/*           className="w-24 sm:w-[450px]"*/}
+                    {/*    />*/}
+                    {/*    <p className=" sm:text-2xl text-white text-center sm:text-left flex items-center bg-red-700">*/}
+                    {/*        We empower schools*/}
+                    {/*        with seamless communication,*/}
+                    {/*        effortless scheduling, and a smarter*/}
+                    {/*        way to manage education.*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
+
+                    <div
+                        className="flex flex-col sm:flex-row items-center justify-center gap-x-8 mb-4 md:mb-0 text-center sm:text-left">
+                        <Image
+                            alt="Logo"
+                            src="imgs/logowhite.png"
+                            className="w-24 sm:w-[450px]"
                         />
-                        <p className=" sm:text-2xl text-white text-center sm:text-left flex items-center ">
-                            We empower schools
-                            with seamless communication,
-                            effortless scheduling, and a smarter
-                            way to manage education.
+                        <p className="sm:text-2xl text-white text-center sm:text-left flex items-center ">
+                            We empower schools with seamless communication,
+                            effortless scheduling, and a smarter way to manage education.
                         </p>
                     </div>
 
@@ -43,9 +54,9 @@ export function Footer() {
                                 {/*<p className="text-lg sm:text-xl mt-3">Empowering schools, teachers, students, and parents</p>*/}
                             </div>
                             <div
-                                className=" flex flex-col justify-start gap-y-3 bg-transparent ">
+                                className="flex flex-col justify-start gap-y-2 bg-transparent ">
                                 <div className="overflow-visible py-2 flex-grow text-white items-start">
-                                    <h1 className="sm:text-lg text-md"><span
+                                    <h1 className="sm:text-lg text-md "><span
                                         className="font-bold">Email:</span> schoolify.sdgp@gmail.com</h1>
                                     <h1 className="sm:text-lg text-md"><span
                                         className="font-bold">Telephone:</span> 0716666666</h1>
@@ -58,9 +69,10 @@ export function Footer() {
 
                                     <div className="flex justify-start space-x-6">
                                         <a
-                                            href="https://linkedin.com"
+                                            href="https://www.linkedin.com/in/schoolifylms"
                                             className="hover:opacity-80"
                                             aria-label="LinkedIn"
+                                            target="_blank" rel="noopener noreferrer"
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -76,6 +88,7 @@ export function Footer() {
                                             href="https://github.com"
                                             className="hover:opacity-80 border-1 border-white rounded-full"
                                             aria-label="GitHub"
+                                            target="_blank" rel="noopener noreferrer"
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -88,9 +101,10 @@ export function Footer() {
                                             </svg>
                                         </a>
                                         <a
-                                            href="https://facebook.com"
+                                            href="https://www.facebook.com/profile.php?id=61571031742228"
                                             className="hover:opacity-80"
                                             aria-label="Facebook"
+                                            target="_blank" rel="noopener noreferrer"
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -103,9 +117,10 @@ export function Footer() {
                                             </svg>
                                         </a>
                                         <a
-                                            href="https://instagram.com"
+                                            href="https://www.instagram.com/schoolify._/?utm_source=ig_web_button_share_sheet"
                                             className="hover:opacity-80"
                                             aria-label="Instagram"
+                                            target="_blank" rel="noopener noreferrer"
                                         >
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"

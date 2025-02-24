@@ -17,13 +17,17 @@ const Team = () => {
             name: "Sonal Pathinayaka",
             role: "Client-Side/Server-Side/Marketing",
             description: "Managed everyone adsasd asdasd asdas asdas",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/sonal-pathinayaka" target="_blank" rel="noopener noreferrer">
+                            <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+                        </a>,
+            github:     <a href="https://github.com/SonalKethaka" target="_blank" rel="noopener noreferrer">
+                            <Github className="text-black w-7 h-7 cursor-pointer"/>
+                        </a>,
 
         },
         {
-            photo:<Image alt="Hasaru Image"
-                         src="imgs/hasaru.jpg"
+            photo: <Image alt="Hasaru Image"
+                          src="imgs/hasaru.jpg"
                          className="circular-image rounded-full object-cover border-3 border-black"
                          width={150}
                          height={150}
@@ -31,8 +35,12 @@ const Team = () => {
             name: "Hasaru Uyanahewa",
             role: "Client-Side/Server-Side/Marketing",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+            </a>,
+            github:     <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Github className="text-black w-7 h-7 cursor-pointer"/>
+            </a>,
 
         },
         {
@@ -45,8 +53,12 @@ const Team = () => {
             name: "Chalitha Gunarathna",
             role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+            </a>,
+            github:     <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Github className="text-black w-7 h-7 cursor-pointer"/>
+            </a>,
 
         },
         {
@@ -59,8 +71,12 @@ const Team = () => {
             name: "Sathira Dahanayaka",
             role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+            </a>,
+            github:     <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Github className="text-black w-7 h-7 cursor-pointer"/>
+            </a>,
 
         },
         {
@@ -73,8 +89,12 @@ const Team = () => {
             name: "Amna Ibrahim",
             role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+            </a>,
+            github:     <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <Github className="text-black w-7 h-7 cursor-pointer"/>
+            </a>,
         },
         {
             photo:<Image alt="Sachini Image"
@@ -86,8 +106,12 @@ const Team = () => {
             name: "Sachini Nishshanka",
             role: "Client-Side/Server-Side",
             description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin: <Linkedin className="text-black w-6 h-6 " />,
-            github: <Github className="text-black w-7 h-7" />,
+            linkedin:   <a href="https://www.linkedin.com/in/sachini-nishshanka-052637294?trk=contact-info" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
+            </a>,
+            github:     <a href="https://github.com/SachiniNishshanka" target="_blank" rel="noopener noreferrer">
+                <Github className="text-black w-7 h-7 cursor-pointer"/>
+            </a>,
         },
     ];
 
