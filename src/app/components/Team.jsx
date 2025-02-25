@@ -16,7 +16,7 @@ const Team = () => {
             /> ,
             name: "Sonal Pathinayaka",
             role: "Client-Side/Server-Side/Marketing",
-            description: "Managed everyone adsasd asdasd asdas asdas",
+            description: "Implemented the Appointment Scheduler and the Gradebook features. Implemented the marketing site. Handles Social Media Marketing.",
             linkedin:   <a href="https://www.linkedin.com/in/sonal-pathinayaka" target="_blank" rel="noopener noreferrer">
                             <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
                         </a>,
@@ -34,7 +34,7 @@ const Team = () => {
             /> ,
             name: "Hasaru Uyanahewa",
             role: "Client-Side/Server-Side/Marketing",
-            description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
+            description: "Implemented Event Scheduler/School Calendar features. Oversaw the development of the marketing site interface. Handles Social Media Marketing.",
             linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
             </a>,
@@ -52,7 +52,7 @@ const Team = () => {
             /> ,
             name: "Chalitha Gunarathna",
             role: "Client-Side/Server-Side",
-            description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
+            description: "Responsible for building the Dashboard feature for all the users",
             linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
             </a>,
@@ -70,7 +70,7 @@ const Team = () => {
             /> ,
             name: "Sathira Dahanayaka",
             role: "Client-Side/Server-Side",
-            description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
+            description: "Implemented the School Resources/Materials feature. Responsible for creating content for SMM",
             linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
             </a>,
@@ -88,11 +88,11 @@ const Team = () => {
             /> ,
             name: "Amna Ibrahim",
             role: "Client-Side/Server-Side",
-            description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
-            linkedin:   <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            description: "Responsible for implementing the Attendance Tracker feature",
+            linkedin:   <a href="https://www.linkedin.com/in/amna-ibrahim-69401b298/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BzB6Y0Wm%2BStmVpdoONKKGVg%3D%3D" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
             </a>,
-            github:     <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            github:     <a href="https://github.com/IbrahimAmna" target="_blank" rel="noopener noreferrer">
                 <Github className="text-black w-7 h-7 cursor-pointer"/>
             </a>,
         },
@@ -105,7 +105,7 @@ const Team = () => {
             /> ,
             name: "Sachini Nishshanka",
             role: "Client-Side/Server-Side",
-            description: "Manage school-wide operations, schedules, and communication efficiently with our system.",
+            description: "Responsible for building the Client-Side of the Gradebook feature.",
             linkedin:   <a href="https://www.linkedin.com/in/sachini-nishshanka-052637294?trk=contact-info" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-black w-6 h-6 cursor-pointer"/>
             </a>,
