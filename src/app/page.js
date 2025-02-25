@@ -28,7 +28,8 @@ export default function Home() {
                   <Mission/>
                   <Service/>
                   <Unique/>
-                  <Team/>              </div>
+                  <Team/>
+              </div>
               {/*</div>*/}
               <Footer/>
           </motion.div>
