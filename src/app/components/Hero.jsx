@@ -4,6 +4,7 @@ import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion";
 import { FlipWords } from "@/app/components/ui/flip-words";
 import {Button} from "@heroui/react";
+import {router} from "next/client";
 
 const Hero = () => {
 
@@ -65,6 +66,7 @@ const Hero = () => {
                     <FlipWords className="text-4xl md:text-7xl font-bold " words={words}/>
                     <br/>
                     <Button
+                        onClick={() => window.location.href = "https://schoolify-nine.vercel.app/login"}
                         variant="ghost"
                         endContent={<DiagonalArrowIcon />}
                         className="bg-gradient-to-tr from-logoColor to-heroColor text-md text-white border-none shadow-lg"
