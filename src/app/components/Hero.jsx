@@ -53,7 +53,6 @@ const Hero = () => {
         //         </div>
         //     </div>
         // </div>
-        // <div id="hero"
         //     className="relative h-screen bg-[url('/imgs/hero.jpg')] bg-cover bg-center bg-no-repeat flex items-center px-4 md:px-16">
         <div id="hero"
             className="relative h-screen bg-[url('/imgs/hero.jpg')] bg-cover bg-center bg-no-repeat flex items-center px-4 md:px-16 before:absolute before:inset-0 before:bg-black/30 before:backdrop-blur-sm">
